@@ -24,7 +24,7 @@ export default function Button({
     <Pressable
       style={({ pressed }) => [
         styles.button,
-        { backgroundColor: bgColor, opacity: pressed ? 0.8 : 1 },
+        { backgroundColor: bgColor, opacity: pressed ? 0.7 : 1 },
         style as ViewStyle,
       ]}
       {...rest}

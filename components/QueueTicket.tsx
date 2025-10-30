@@ -2,14 +2,14 @@ import React from "react";
 import { ViewProps, Text, StyleSheet } from "react-native";
 import Card from "./Card";
 import CardTitle from "./atoms/CardTitle";
-import Slider from "./Slider";
+import TimeSlider from "./TimeSlider";
 
 export default function QueueTicket({ style, ...rest }: ViewProps) {
   return (
     <Card centered>
       <CardTitle>Senha</CardTitle>
       <Text style={styles.queueTicketNumber}>A001</Text>
-      <Slider></Slider>
+      <TimeSlider></TimeSlider>
     </Card>
   );
 }

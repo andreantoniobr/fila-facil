@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import AppText from "./atoms/AppText";
 
-export default function Slider() {
+export default function TimeSlider() {
   const totalTimeInMinutes = 15;
   const timeToUpdateInSeconds = 2;
   const [timeLeft, setTimeLeft] = useState(totalTimeInMinutes);
@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
   },
   sliderBackground: {
     flexDirection: "row",
-    height: 25,
+    height: 30,
     backgroundColor: "#eee",
-    borderRadius: 5,
+    borderRadius: 8,
     overflow: "hidden",
   },
   sliderProgress: {

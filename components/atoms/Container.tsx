@@ -23,10 +23,9 @@ export default function Container({ children, style, centered, ...rest }: Contai
 
 const styles = StyleSheet.create({
   container: {
-    flexGrow: 1,
     width: "100%",
     paddingHorizontal: 20,
-    paddingBottom: 120,
+    paddingBottom: 40,
   },
   centered: {
     justifyContent: "center",

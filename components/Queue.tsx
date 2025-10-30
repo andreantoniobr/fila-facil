@@ -30,8 +30,8 @@ export default function Queue({ style, ...rest }: ViewProps) {
 
 const styles = StyleSheet.create({
   image: {
-    width: 64,
-    height: 45,
+    width: 57,
+    height: 40,
     marginRight: 20,
   },
   queueAmount: {

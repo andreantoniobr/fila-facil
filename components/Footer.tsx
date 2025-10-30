@@ -7,7 +7,7 @@ export default function Footer() {
     <View style={styles.footer}>
       <TouchableOpacity style={styles.button}>
         <MaterialIcons name="confirmation-number" style={styles.icon} />
-        <Text style={styles.text}>Retirar Senha</Text>
+        <Text style={styles.text}>Senha</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button}>
@@ -17,7 +17,7 @@ export default function Footer() {
 
       <TouchableOpacity style={styles.button}>
         <MaterialIcons name="person" style={styles.icon} />
-        <Text style={styles.text}>Meu Cadastro</Text>
+        <Text style={styles.text}>Perfil</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button}>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     width: "100%",
     position: "absolute",
     bottom: 0,
-    backgroundColor: "#f8f8f8",
+    backgroundColor: "#fff",
     borderTopWidth: 1,
     borderTopColor: "#ddd",
   },
@@ -43,16 +43,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     fontFamily: "Inter_400Regular",
-    paddingVertical: 20,
+    paddingVertical: 10,
   },
   text: {
-    fontSize: 12,
+    fontSize: 9,
     marginTop: 3,
     color: "#4C4C4C",
     fontFamily: "Inter_600SemiBold",  
   },
   icon: {
-    fontSize: 26,
+    fontSize: 28,
     color: "#4C4C4C",
   }
 });
